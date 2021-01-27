@@ -1,0 +1,15 @@
+{
+  "name": "node-mongo-backup-app",
+  "version": "1.0.0",
+  "description": "MongoDB backup project using node scheduler.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "sanket",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "node-schedule-tz": "^1.2.1-4"
+  }
+}
